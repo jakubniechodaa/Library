@@ -8,22 +8,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="<c:url value="resources/js/app.js" />"></script>
 </head>
-
 <body>
-<section class="people">
-    <input type="text" placeholder="Wpisz imię i nazwisko" id="addUser"/>
-    <input type="text" placeholder="Wpisz wiek" id="age"/>
-    <input type='submit' value='dodaj'>
 
-    <ul class="main">
-        <li data-age="63">John Travolta</li>
-        <li data-age="18">Angelina Jolie</li>
-        <li data-age="50">Barack Obama</li>
-        <li data-age="15">Krzysztof Ibisz</li>
-    </ul>
-</section>
-<section class="task_1">
-    <button>TASK 1</button>
-</section>
+<form id="form">
+    <input type="text", id="isbn" placeholder="ISBN"/>
+    <input type="text", id="title" placeholder="Title"/>
+    <input type="text", id="author" placeholder="Author"/>
+    <input type="text", id="publisher" placeholder="Publisher"/>
+    <input type="text", id="type" placeholder="Type"/>
+    <button id="button">Add book</button>
+</form>
+
+
 </body>
 </html>
